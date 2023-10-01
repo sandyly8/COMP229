@@ -1,5 +1,6 @@
 exports.render = function(req, res) {
     res.render('index', {
-        title: 'Hello World k'
+        title: 'Home',
+        browserTitle: 'Home'
     })
 };
