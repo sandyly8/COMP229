@@ -26,6 +26,9 @@ module.exports = function () {
     require('../app/routes/index.server.routes.js')(app);
     require('../app/routes/about.server.routes.js')(app);
     require('../app/routes/home.server.routes.js')(app);
+    require('../app/routes/projects.server.routes.js')(app);
+    require('../app/routes/services.server.routes.js')(app);
+    require('../app/routes/contact.server.routes.js')(app);
 
     app.use(express.static('./public'));
 
