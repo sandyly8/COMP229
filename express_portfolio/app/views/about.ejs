@@ -1,10 +1,13 @@
 <%- include ('partials/header.ejs') %>
 <%- include ('partials/top_nav.ejs') %>
 
-    <h1><%= title %></h1>
+<main class="container">
+    <div class="jumbotron">
+      <h1 class="display-4"><%= title %></h1>
+    
     <img src="img/headshot.jpg" width="250" height="250">
     <br>
-    <p>My name is Sandy Ly and in the second year of the Software Engineering Technology program 
+    <p>My name is Sandy Ly and I am in my second year of the Software Engineering Technology program 
         <br>
         at Centennial College. I also have an Honours Bachelor of Science from the University of 
         <br>
@@ -13,8 +16,9 @@
         problem solving aspect of programming and am also interested in learning more about databases.
     </p>
     <br>
-    <!-- <a href="img/resume.pdf">Here is my resume</a> -->
-
+    <a href="img/resume.pdf">Click here to view my resume</a>
+</div>
+</main>
 
   
 <%- include ('partials/footer.ejs') %>

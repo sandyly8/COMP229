@@ -1,10 +1,33 @@
 <%- include ('partials/header.ejs') %>
 <%- include ('partials/top_nav.ejs') %>
 
-    <h1><%= title %></h1>
+<main class="container">
+  <div class="jumbotron">
+    <h1 class="display-4"><%= title %></h1>
     <p>
+
+      
+      <meta name="viewport" content="width=50%, initial-scale=1">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <body>
+      
+      <div class="w3-container">
+        
+      
+        <div class="w3-panel">
+          <p>You can contact me at: 
+            <br>Phone number: (416)777-8888
+            <br>Email: sandyly@centennialcollege.ca</p>
+        </div>
+        
+      </div>
+      
+      
+    
+    
+    <br><Br>
         <div class="container">
-            <form action="action_page.php">
+          <form action="/" method="GET">
           
               <label for="fname">First Name</label>
               <input type="text" id="fname" name="firstname" placeholder="Your name">
@@ -22,8 +45,10 @@
               <div class="message-container">  
               <label for="subject">Message</label>
               <textarea id="message" name="message" placeholder="Write your message" style="height:200px"></textarea>
-          
+              <br>
+              
               <input type="submit" value="Submit">
+              
           
             </form>
           </div>
@@ -31,6 +56,8 @@
 
 
     </p>
+  </div>
+</main>
 
 
   
