@@ -1,41 +1,43 @@
 <%- include ('partials/header.ejs') %>
-<%- include ('partials/top_nav.ejs') %>
+  <%- include ('partials/top_nav.ejs') %>
 
-<main class="container">
-    <div class="jumbotron">
-      <h1 class="display-4"><%= title %></h1>
-    
-    <p>Here are some projects I worked on last semester in my web development course 
-    <br>using Visual Studio Code and JavaScript.
-    
-    <br><br>
-    <img src="img/project1.png" width="500" height="500">
-    <br>
-    This is a simple canvas game in which the score and speed increases each time the 
-    <br> user clicks on the moving butterfly.
-    <p>
+    <main class="container">
+      <div class="jumbotron">
 
-    <p>  
-    <br><br>
-    <img src="img/project2.png" width="500" height="500">
-    <br>
-    This is an interactive slideshow that allows the user to move forward and backward 
-    <br>to see the different images. It also allows the user to add images to a "favourites" 
-    <br>area at the bottom of the page.
-    </p>
+        <!-- title of page -->
+        <h1 class="display-4">
+          <%= title %>
+        </h1>
 
-    <p>
-    <br><br>
-    <img src="img/project3.png" width="500" height="500">
-    <br>
-    Using JavaScript loops, this project allows the user to select the number of rows
-    <br>and columns. The multiplication table will then be redrawn based on the user's specifications.
-    </p>
+        <!-- photos of projects with descriptions -->
+        <p>Here are some projects I worked on last semester in my web development course
+          <br>using Visual Studio Code and JavaScript.
 
-</div>
-</main>
+          <br><br>
+          <img src="img/project1.png" width="500" height="500">
+          <br>
+          This is a simple canvas game in which the score and speed increases each time the
+          <br> user clicks on the moving butterfly.
+        </p>
 
+        <p>
+          <br><br>
+          <img src="img/project2.png" width="500" height="500">
+          <br>
+          This is an interactive slideshow that allows the user to move forward and backward
+          <br>to see the different images. It also allows the user to add images to a "favourites"
+          <br>area at the bottom of the page.
+        </p>
 
+        <p>
+          <br><br>
+          <img src="img/project3.png" width="500" height="500">
+          <br>
+          Using JavaScript loops, this project allows the user to select the number of rows
+          <br>and columns. The multiplication table will then be redrawn based on the user's specifications.
+        </p>
 
-  
-<%- include ('partials/footer.ejs') %>
+      </div>
+    </main>
+
+    <%- include ('partials/footer.ejs') %>

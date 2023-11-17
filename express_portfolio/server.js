@@ -1,3 +1,8 @@
+/* File name: server.js
+Student name: Sandy Ly 
+Date: October 2, 2023 */
+
+
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
 var express = require('./config/express');

@@ -1,3 +1,9 @@
+/* File name: main.css
+Student name: Sandy Ly 
+Date: October 2, 2023 */
+
+
+/* --------CSS for body, footer, and header-------- */
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -19,8 +25,9 @@ header {
     color: white;
 }
 
-/* ---------- navigation styles START ---------- */
+/* ------------CSS for Navigation----------- */
 
+/* background colour of navigation bar */
 .topnav {
     overflow: hidden;
     background-color: #034f84;
@@ -36,11 +43,13 @@ header {
     font-size: 17px;
 }
 
+/* background colour when hovering over */
 .topnav a:hover {
     background-color: #ddd;
     color: black;
 }
 
+/* background colour of the active link */
 .topnav a.active {
     background-color: #618685;
     color: white;
@@ -79,62 +88,61 @@ header {
     }
 }
 
-/* ---------- navigation styles END ---------- */
+
+/* -------- CSS for Contact Form ----------- */
 
 
-/* ---------- contact form styles START ---------- */
-
-/* Style labels */
 label {
-    display: block; /* Display labels as blocks to stack them vertically */
-    margin-bottom: 6px; /* Add a bottom margin to separate labels */
+    display: block;
+    margin-bottom: 6px;
 }
 
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 50%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
+
+input[type=text],
+select,
+textarea {
+    width: 50%;   
+    padding: 12px; 
+    border: 1px solid #ccc;  
+    border-radius: 4px;   
+    box-sizing: border-box;  
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical     
+}
+
+/* submit button */
+input[type=submit] {
     background-color: #588c7e;
     color: white;
     padding: 15px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    width: 100px; 
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color:#96ceb4 ;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .container {
-    border-radius: 5px;
-    background-color: white; 
-    padding: 20px;
-  }
+    width: 100px;
+}
 
-  /* Add styles for the message container */
+/* changing submit button colour when mouse hovers over it */
+input[type=submit]:hover {
+    background-color: #96ceb4;
+}
+
+/* background color and padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+}
+
+/* message box */
 .message-container {
     display: flex;
     flex-direction: column;
 }
 
-/* ---------- contact form styles START ---------- */
 
-/* Custom CSS to make the panel width smaller */
+/* ---------CSS for contact panel-------- */
 .w3-panel {
-    width: 50%; /* Adjust the width as per your preference */
+    width: 50%;
     background-color: #e4d1d1;
-  }
+}

@@ -1,25 +1,30 @@
 <%- include ('partials/header.ejs') %>
-<%- include ('partials/top_nav.ejs') %>
+  <%- include ('partials/top_nav.ejs') %>
 
-<main class="container">
-    <div class="jumbotron">
-      <h1 class="display-4"><%= title %></h1>
-    <p>
-    <img src="img/servicespic.jpg" width="400" height="300">
-    <br>
-    I offer the following services:
+    <main class="container">
+      <div class="jumbotron">
+
+        <!-- title of page -->
+        <h1 class="display-4">
+          <%= title %>
+        </h1>
+
+        <p>
+          <!-- photo for service page -->
+          <img src="img/servicespic.jpg" width="400" height="300">
+          <br>
+
+          <!-- list of services offered -->
+          I offer the following services:
         <ul>
-            <li>Programming in C#, Java, and Python</li>
-            <li>Web development using VS Code</li>
-            <li>Creating databases</li>
-          </ul>
+          <li>Programming in C#, Java, and Python</li>
+          <li>Web development using VS Code</li>
+          <li>Creating databases</li>
+        </ul>
 
+        </p>
 
-    </p>
+      </div>
+    </main>
 
-</div>
-</main>
-
-
-  
-<%- include ('partials/footer.ejs') %>
+    <%- include ('partials/footer.ejs') %>
